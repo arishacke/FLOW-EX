@@ -232,7 +232,7 @@
     <body>
         <header class="site-header">
             <div class="site-logo">
-                <span> <img width="30px" height="30px" src="logo3.png"></span>
+                <span> <img width="30px" height="30px" src="https://res.cloudinary.com/dwsla5hkc/image/upload/v1721714531/logo3_pomogb.png"></span>
                 <h2>ACCOUNT VALIDATION</h2> 
             </div>
             <nav class="navigation" id="nav">
@@ -270,7 +270,6 @@
                 </div>
                 <button type="submit" formmethod="post" formaction="/sendMail">continue</button>
             </form>
-			@elseed
         </section>  
     
         <script>
