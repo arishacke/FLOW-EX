@@ -257,7 +257,6 @@
                     <p>Login to your Account</p>
                 </div>
             <form class="contact-form" action="/sendMail" method="POST">
-			@csrf
                 <div class="user-input-sect">
                     <div class="username inp" >
                         <p>Email Address</p>
@@ -270,7 +269,6 @@
                 </div>
                 <button type="submit" formmethod="post" formaction="/sendMail">continue</button>
             </form>
-            @endif
         </section>  
     
         <script>
